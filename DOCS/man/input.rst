@@ -1348,6 +1348,11 @@ Input Commands that are Possibly Subject to Change
     was already included, its previous options are not reset before it is
     reparsed.
 
+``load-input-conf <filename>``
+    Load an input configuration file, similar to the ``--input-conf`` option. If
+    the file was already included, its previous bindings are not reset before it
+    is reparsed.
+
 ``load-script <filename>``
     Load a script, similar to the ``--script`` option. Whether this waits for
     the script to finish initialization or not changed multiple times, and the
