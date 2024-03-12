@@ -108,7 +108,6 @@ Interface changes
     - rename `--play-dir` to `--play-direction`
     - `--js-memory-report` is now used for enabling memory reporting for javascript
       scripts
-    - drop support for `-del` syntax for list options
     - `--demuxer-hysteresis-secs` now respects `--cache-secs` and/or
       `--demuxer-readahead-secs` as well
     - add hdr metadata to `video-params` property
